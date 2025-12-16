@@ -43,7 +43,7 @@ lab11_php_oop/
 
 Nama database
 latihan_oop
-```
+```sql
 Query tabel users
 
 CREATE TABLE users (

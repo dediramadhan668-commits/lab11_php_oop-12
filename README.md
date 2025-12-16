@@ -163,7 +163,6 @@ exit;
 • Jalankan Apache dan MySQL di XAMPP
 • Buka phpMyAdmin dan buat database
 • Import tabel users
-• Akses http://localhost/lab11_php_oop
 
 # Akun Login
 

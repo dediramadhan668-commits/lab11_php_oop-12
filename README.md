@@ -2,14 +2,14 @@
 PHP dan XAMPP
 
 # Identitas Mahasiswa 
-=========================
+
 Nama. Dedi Ramadhan
 NIM. 312410171
 Mata Kuliah. Pemrograman Web
-=========================
+
 # Deskripsi Project
 Project ini membahas autentikasi login dan logout menggunakan PHP dan MySQL. Sistem memakai session untuk menyimpan status login user. Studi kasus memakai user admin dari database.
-=========================
+
 # Tujuan Praktikum
 • Memahami konsep login dan logout
 • Memahami session pada PHP
@@ -159,29 +159,29 @@ exit;
 ```
 
 # Cara Menjalankan
-==================
+
 • Jalankan Apache dan MySQL di XAMPP
 • Buka phpMyAdmin dan buat database
 • Import tabel users
 • Akses http://localhost/lab11_php_oop
-==================
+
 # Akun Login
-==================
+
 Username. admin
 Password. admin
-==================
+
 # Hasil
-==================
+
 • Login berbasis database berhasil
 • Session aktif setelah login
 • Logout menghapus session
 • Tampilan berubah sesuai status login
-==================
+
 # Pengembangan Lanjutan
-==================
+
 • Password hashing
 • Proteksi halaman
 • Halaman profil user
 • Sistem CRUD
-==================
+
 # Catatan kecil. Login admin tanpa hashing itu cepat. Hacker juga cepat senyum. 

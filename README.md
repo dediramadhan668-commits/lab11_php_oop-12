@@ -1,7 +1,7 @@
 # Praktikum 12 Autentikasi dan Session
 PHP dan XAMPP
 
-# Identitas Mahasiswa
+# Identitas Mahasiswa 
 =========================
 Nama. Dedi Ramadhan
 NIM. 312410171
@@ -184,4 +184,4 @@ Password. admin
 • Halaman profil user
 • Sistem CRUD
 ==================
-# <b1> Catatan kecil. Login admin tanpa hashing itu cepat. Hacker juga cepat senyum. </b1>
+# Catatan kecil. Login admin tanpa hashing itu cepat. Hacker juga cepat senyum. 

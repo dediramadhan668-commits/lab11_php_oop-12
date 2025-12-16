@@ -1,20 +1,21 @@
-Praktikum 12 Autentikasi dan Session
+# Praktikum 12 Autentikasi dan Session
 PHP dan XAMPP
 
-Identitas Mahasiswa
+# Identitas Mahasiswa
+=========================
 Nama. Dedi Ramadhan
 NIM. 312410171
 Mata Kuliah. Pemrograman Web
-
-Deskripsi Project
+=========================
+# Deskripsi Project
 Project ini membahas autentikasi login dan logout menggunakan PHP dan MySQL. Sistem memakai session untuk menyimpan status login user. Studi kasus memakai user admin dari database.
-
-Tujuan Praktikum
+=========================
+# Tujuan Praktikum
 • Memahami konsep login dan logout
 • Memahami session pada PHP
 • Mengimplementasikan autentikasi berbasis database
 
-Tools
+# Tools
 • XAMPP
 • Apache
 • MySQL
@@ -22,7 +23,7 @@ Tools
 • Visual Studio Code
 • Browser
 
-Struktur Folder
+# Struktur Folder
 ```
 lab11_php_oop/
 ├── index.php
@@ -38,7 +39,7 @@ lab11_php_oop/
 └── template/
 ```
 
-Konfigurasi Database
+# Konfigurasi Database
 
 Nama database
 latihan_oop
@@ -53,13 +54,13 @@ CREATE TABLE users (
 );
 ```
 
-Insert user admin
+# Insert user admin
 
 INSERT INTO users (username, password, nama)
 VALUES ('admin', 'admin', 'Administrator');
 
 
-Penjelasan File Utama
+# Penjelasan File Utama
 
 index.php
 Berfungsi sebagai router halaman dan session handler.
@@ -100,7 +101,7 @@ class Database {
 ```
 
 module/home/index.php
-Menampilkan menu sesuai status login.
+# Menampilkan menu sesuai status login.
 
 <h1>HOME</h1>
 
@@ -113,7 +114,7 @@ Menampilkan menu sesuai status login.
 
 
 module/user/login.php
-Proses autentikasi user.
+# Proses autentikasi user.
 ```php
 <?php
 require_once "class/Database.php";
@@ -157,26 +158,30 @@ header("Location: index.php");
 exit;
 ```
 
-Cara Menjalankan
+# Cara Menjalankan
+==================
 • Jalankan Apache dan MySQL di XAMPP
 • Buka phpMyAdmin dan buat database
 • Import tabel users
 • Akses http://localhost/lab11_php_oop
-
-Akun Login
+==================
+# Akun Login
+==================
 Username. admin
 Password. admin
-
-Hasil
+==================
+# Hasil
+==================
 • Login berbasis database berhasil
 • Session aktif setelah login
 • Logout menghapus session
 • Tampilan berubah sesuai status login
-
-Pengembangan Lanjutan
+==================
+# Pengembangan Lanjutan
+==================
 • Password hashing
 • Proteksi halaman
 • Halaman profil user
 • Sistem CRUD
-
-Catatan kecil. Login admin tanpa hashing itu cepat. Hacker juga cepat senyum.
+==================
+# <b1> Catatan kecil. Login admin tanpa hashing itu cepat. Hacker juga cepat senyum. </b1>
